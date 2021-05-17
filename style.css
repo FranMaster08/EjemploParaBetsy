@@ -6,25 +6,26 @@
     box-sizing: border-box;
 
 }
-
 main{
-    width: 80%;
-    height: 100vh;
-    margin: auto;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-}
-main div{
-    width: 30%;
-    border: 1px black solid;
-    border-radius: 15px;
-    padding: 10px;
-    font-family: 'Montserrat', sans-serif;
 }
 
-main div:hover{
+.titulos{
+    display: flex;
+    justify-content: center;
+    
+}
+
+h1{
+    display: inline-block;
     background-color: black;
     color: white;
-}
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    width: 300px;
+    text-align: center;
+
+} 
 
